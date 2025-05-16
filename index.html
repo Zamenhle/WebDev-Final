@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kevin's Travel Blog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Landing Page Header -->
+  <header>
+    <h1>Kevin's Travel Blog</h1>
+    <p>Adventures and Stories from Around the World</p>
+  </header>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Destinations</a>
+    <a href="#">Tips</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Main Blog Section -->
+  <main>
+    <article>
+      <h2>Exploring the Maasai Mara</h2>
+      <p>The Maasai Mara is one of Africa’s greatest wildlife reserves. I visited in July during the great migration...</p>
+      <button onclick="toggleContent(this)">Read More</button>
+      <div class="content">
+        <p>The experience of seeing thousands of wildebeest cross the Mara River is breathtaking. We also spotted lions,
+          elephants, and cheetahs on our game drives. The local Maasai people were incredibly welcoming, and their
+          traditions made the trip even more enriching.</p>
+      </div>
+    </article>
+
+    <article>
+      <h2>Backpacking Through Morocco</h2>
+      <p>Morocco is a land of diverse culture, spices, and endless adventure. Here’s my experience through the souks and dunes...</p>
+      <button onclick="toggleContent(this)">Read More</button>
+      <div class="content">
+        <p>Starting from Marrakech, I wandered through narrow alleys filled with spices, carpets, and leather goods. The Sahara desert was the highlight — riding camels at sunset and camping under the stars is something I’ll never forget.</p>
+      </div>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Kevin's Travel Blog. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
